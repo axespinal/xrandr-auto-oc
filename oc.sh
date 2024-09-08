@@ -23,9 +23,8 @@ display_help() {
     echo
     echo "Options:"
     echo "  -m, --modeline <path>     Specify a custom path for modeline.txt"
-    echo "  -e, --edid <path>         Specify a custom path for target_edid.txt"
-    echo "  -d, --debug               Show debugging outputs"
-    
+    echo "  -e, --edid <path>         Specify a custom path for target_edid.txt"    
+    echo
 }
 
 check_target_file() {
@@ -220,7 +219,7 @@ case "$1" in
 
     readconf)
         echo
-        echo "xrandr-auto-oc | axel was here 08-25-2024"
+        echo "xrandr-auto-oc | axel was here 2024-09-08"
         echo
         echo "Default path: $SCRIPT_DIR"
         echo
